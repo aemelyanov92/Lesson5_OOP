@@ -42,7 +42,7 @@ public class ViewUser {
     }
 
     private void updateUser() throws Exception {
-        String readId = getID("Введиет редактируемый ID юзера: ");
+        String readId = getID("Введите редактируемый ID юзера: ");
         userController.updateUser(readId,inputUser());
     }
 
